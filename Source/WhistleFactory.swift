@@ -5,7 +5,7 @@ public enum WhistleAction {
   case show(TimeInterval)
 }
 
-let whistleFactory = WhistleFactory()
+public let whistleFactory = WhistleFactory()
 
 open class WhistleFactory: UIViewController {
 
